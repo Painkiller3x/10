@@ -44,3 +44,7 @@ color:white;
 	#btn,#btn2,#balance{font-size: 40px;}
 	html{background-repeat: repeat;}
 }
+@media screen and (max-width: 720px) {
+	#btn,#btn2,#balance{font-size: 50px;}
+	#c1,#c2,#c3,#c4,#c5,#c6,#c7,#c8,#c9{height:216px;width:168px; }
+}
