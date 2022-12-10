@@ -38,13 +38,9 @@ border:#151922;
 color:white;
 }
 #balance{margin:10px;}
-@media screen and (min-width: 1080px) {
+@media screen and (max-width: 1080px) {
 	#div1{flex-direction: column;}
 	#div2{flex-direction: column;}
 	#btn,#btn2,#balance{font-size: 40px;}
 	html{background-repeat: repeat;}
-}
-@media screen and (min-width: 720px) {
-	#btn,#btn2,#balance{font-size: 50px;}
-	#c1,#c2,#c3,#c4,#c5,#c6,#c7,#c8,#c9{height:216px;width:168px; }
 }
